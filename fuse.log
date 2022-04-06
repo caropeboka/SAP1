@@ -1,0 +1,39 @@
+Running: E:\Xilink\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/ISEE/SAP1nome/SAP1tb_isim_beh.exe -prj E:/ISEE/SAP1nome/SAP1tb_beh.prj work.SAP1tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/ISEE/SAP1nome/regB.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/regA.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/RAM.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/PC.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/outReg.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/MAR.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/IR.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/CU.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/ALU.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/SAP1.vhd" into library work
+Parsing VHDL file "E:/ISEE/SAP1nome/SAP1tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity MAR [mar_default]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture behavioral of entity IR [ir_default]
+Compiling architecture behavioral of entity regA [rega_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity regB [regb_default]
+Compiling architecture behavioral of entity outReg [outreg_default]
+Compiling architecture behavioral of entity CU [cu_default]
+Compiling architecture behavioral of entity SAP1 [sap1_default]
+Compiling architecture behavior of entity sap1tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable E:/ISEE/SAP1nome/SAP1tb_isim_beh.exe
+Fuse Memory Usage: 34896 KB
+Fuse CPU Usage: 1031 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/ISEE/SAP1nome/SAP1tb_isim_beh.exe" -prj "E:/ISEE/SAP1nome/SAP1tb_beh.prj" "work.SAP1tb" 
